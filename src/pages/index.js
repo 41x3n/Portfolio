@@ -1,6 +1,7 @@
 import React from 'react';
 // import { Link } from 'gatsby';
-import Header from '../components/header';
+import Header from '../components/Header';
+import Sidebar from '../components/Sidebar';
 import SEO from '../components/seo';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -12,10 +13,8 @@ import '../styles/index.css';
 const IndexPage = () => (
 	<div className="mainBody">
 		<SEO title="Home" />
-		<div className="container">
-			{' '}
-			<Header siteTitle="41x3n" />
-		</div>
+		<Header siteTitle="41x3n" />
+		<Sidebar />
 	</div>
 );
 

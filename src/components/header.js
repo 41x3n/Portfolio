@@ -2,9 +2,6 @@ import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import React from 'react';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHamburger } from '@fortawesome/free-solid-svg-icons';
-
 import './header.css';
 
 const Header = ({ siteTitle }) => (
@@ -17,7 +14,7 @@ const Header = ({ siteTitle }) => (
 			data-toggle="collapse"
 			data-target="#myNav"
 		>
-			<FontAwesomeIcon icon={faHamburger} />
+			<i class="fas fa-hamburger" />
 		</div>
 		<div
 			className="collapse navbar-collapse justify-content-end p-3"

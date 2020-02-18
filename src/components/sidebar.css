@@ -1,0 +1,12 @@
+ul {
+  list-style: none;
+  padding-left: 3rem;
+}
+
+ul li {
+  padding-bottom: 4px;
+}
+
+div {
+  height: 75%;
+}
