@@ -2,10 +2,10 @@ import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import React from 'react';
 
-import './header.css';
+import header from './header.module.css';
 
 const Header = ({ siteTitle }) => (
-	<nav className="navbar navbar-expand-md navbar-light p-4 text-large">
+	<nav className="navbar navbar-expand-md navbar-light px-5 text-large">
 		<Link to="/" className="navbar-brand">
 			{siteTitle}
 		</Link>
@@ -17,7 +17,7 @@ const Header = ({ siteTitle }) => (
 			<i class="fas fa-hamburger" />
 		</div>
 		<div
-			className="collapse navbar-collapse justify-content-end p-3"
+			className={`collapse navbar-collapse justify-content-end p-3 ${header.myDiv}`}
 			id="myNav"
 		>
 			<ul className="navbar-nav">

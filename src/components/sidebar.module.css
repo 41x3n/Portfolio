@@ -1,0 +1,30 @@
+.side {
+  list-style: none;
+  padding-left: 3rem;
+}
+
+.side li {
+  padding-bottom: 30px;
+}
+
+.sidebar {
+  height: 100%;
+  max-width: 150px;
+}
+
+.side a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.side a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* @media (max-width: 768px) {
+  .sidebar {
+    display: none !important;
+
+  }
+} */
