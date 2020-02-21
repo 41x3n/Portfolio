@@ -5,12 +5,12 @@ import sidebar from './sidebar.module.css';
 const Sidebar = () => {
 	return (
 		<div
-			className={`d-none ${sidebar.sidebar} d-md-flex flex-column px-4 justify-content-end`}
+			className={`d-none ${sidebar.sidebar} d-md-flex flex-column p-5 justify-content-end`}
 		>
 			<ul className={`py-5 ${sidebar.side}`}>
 				<li>
 					<a href="https://github.com/41x3n">
-						<i class="fab fa-github" />
+						<i class="fab fa-github fa-lg" />
 					</a>
 				</li>
 				<li>
@@ -18,7 +18,7 @@ const Sidebar = () => {
 						className="side"
 						href="https://www.linkedin.com/in/anindya-41x3n/"
 					>
-						<i class="fab fa-linkedin-in" />
+						<i class="fab fa-linkedin-in fa-lg" />
 					</a>
 				</li>
 				<li>
@@ -26,7 +26,7 @@ const Sidebar = () => {
 						className="side"
 						href="https://www.instagram.com/lost_scribe/"
 					>
-						<i class="fab fa-instagram" />
+						<i class="fab fa-instagram fa-lg" />
 					</a>
 				</li>
 				<li>
@@ -34,7 +34,7 @@ const Sidebar = () => {
 						className="side"
 						href="https://www.kaggle.com/anindya41x3n"
 					>
-						<i class="fab fa-kaggle" />
+						<i class="fab fa-kaggle fa-lg" />
 					</a>
 				</li>
 			</ul>

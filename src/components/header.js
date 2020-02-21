@@ -17,7 +17,7 @@ const Header = ({ siteTitle }) => (
 			<i class="fas fa-hamburger" />
 		</div>
 		<div
-			className={`collapse navbar-collapse justify-content-end p-3 ${header.myDiv}`}
+			className={`collapse navbar-collapse justify-content-end py-3 ${header.myDiv}`}
 			id="myNav"
 		>
 			<ul className="navbar-nav">

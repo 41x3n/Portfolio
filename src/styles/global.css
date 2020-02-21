@@ -1,6 +1,7 @@
-.mainBody {
+body {
   background: #43C6AC;
-  height: 100vh;
+
+  /* height: 100vh; */
   /* fallback for old browsers */
   background: -webkit-linear-gradient(to bottom, #191654, #43C6AC);
   /* Chrome 10-25, Safari 5.1-6 */
@@ -9,6 +10,10 @@
   font-family: 'Ubuntu', sans-serif;
 }
 
-.main {
-  height: 85%;
+html {
+  background: linear-gradient(to top, #43C6AC, #191654);
+}
+
+.index {
+  height: 85vh;
 }

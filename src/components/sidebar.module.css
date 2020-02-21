@@ -1,6 +1,6 @@
 .side {
   list-style: none;
-  padding-left: 3rem;
+  /* padding-left: 3rem; */
 }
 
 .side li {
@@ -9,7 +9,7 @@
 
 .sidebar {
   height: 100%;
-  max-width: 150px;
+  max-width: 100px;
 }
 
 .side a {
@@ -21,10 +21,3 @@
   text-decoration: none;
   color: inherit;
 }
-
-/* @media (max-width: 768px) {
-  .sidebar {
-    display: none !important;
-
-  }
-} */

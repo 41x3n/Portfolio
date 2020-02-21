@@ -1,0 +1,10 @@
+.side a {
+  text-decoration: none;
+  color: inherit;
+  padding: 15px;
+}
+
+.side a:hover {
+  text-decoration: none;
+  color: inherit;
+}
