@@ -17,7 +17,7 @@ function SEO({ description, lang, meta, title }) {
 			htmlAttributes={{
 				lang
 			}}
-			title="41x3n"
+			title={title}
 		>
 			<link rel="icon" href={favicon} />
 			<script

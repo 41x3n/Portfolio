@@ -31,23 +31,25 @@ const Body = () => (
 			</a>
 
 			<a href="https://www.instagram.com/lost_scribe/">
-				<i class="fab fa-instagram fa-2x" />
+				<i class="fab fa-instagram-square fa-2x" />
+			</a>
+
+			<a href="mailto:anindya50@live.com">
+				<i class="fas fa-envelope-open fa-2x" />
 			</a>
 
 			<a href="https://www.kaggle.com/anindya41x3n">
 				<i class="fab fa-kaggle fa-2x" />
 			</a>
 
-			<a href="mailto:anindya50@live.com">
-				<i class="fas fa-envelope-open fa-2x" />
+			<a href="https://steamcommunity.com/id/katsuga97">
+				<i class="fab fa-steam-symbol fa-2x" />
 			</a>
 		</div>
 		<hr className="my-4" />
-		<p className="text-monospace text-center">
-			Self-taught MERN-stack developer from Kolkata. Currently pursuing a
-			Bachelor's degree (Computer Application) from Brainware University.
-			Avid DOTA 2 player. Sometimes dipping my toes in C and Rust.
-			Planning to get into Data Science in the future.
+		<p className={`text-monospace ${body.font} text-center`}>
+			MERN-stack Web Developer / Data Science Enthusiast / Book Collector
+			/ Anime Fan / Avid Gamer
 		</p>
 	</div>
 );

@@ -31,3 +31,7 @@
     margin-top: 40px;
   }
 }
+
+.activeNavItem {
+  color: #000000 !important;
+}

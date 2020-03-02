@@ -8,7 +8,7 @@ import SEO from '../components/seo';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import $ from 'jquery';
 // import Popper from 'popper.js';
-import 'bootstrap/dist/js/bootstrap.bundle.min';
+// import 'bootstrap/dist/js/bootstrap.bundle.min';
 // import '../styles/index.css';
 
 const IndexPage = () => (
@@ -27,3 +27,6 @@ export default IndexPage;
 // https://cssgradient.io/gradient-backgrounds/
 // https://codepen.io/jstn/pen/zuDst
 // https://codepen.io/ccromjongh/pen/NRELbB
+// https://jacekjeznach.com/
+// https://jimut123.github.io/
+// https://codepen.io/andi1984/pen/dyoWRgE
