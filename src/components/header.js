@@ -21,22 +21,22 @@ const Header = ({ siteTitle }) => (
 			id="myNav"
 		>
 			<ul className="navbar-nav">
-				<li className="nab-item">
+				<li className="nab-item px-4">
 					<Link to="/" className="nav-link">
 						About
 					</Link>
 				</li>
-				<li className="nab-item">
+				<li className="nab-item px-4">
 					<Link to="/" className="nav-link">
 						Projects
 					</Link>
 				</li>
-				<li className="nab-item">
+				<li className="nab-item px-4">
 					<Link to="/" className="nav-link">
 						Blog
 					</Link>
 				</li>
-				<li className="nab-item">
+				<li className="nab-item px-4">
 					<Link to="/" className="nav-link">
 						Contact
 					</Link>

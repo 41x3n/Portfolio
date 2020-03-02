@@ -1,0 +1,27 @@
+.profilePicture {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: rgba(255, 255, 255, 0.34) 15px solid;
+}
+
+.profileImage {
+  height: 360px;
+  margin-left: -58px;
+}
+
+p {
+  font-size: larger;
+}
+
+.side a {
+  text-decoration: none;
+  color: inherit;
+  padding: 15px;
+}
+
+.side a:hover {
+  text-decoration: none;
+  color: inherit;
+}
