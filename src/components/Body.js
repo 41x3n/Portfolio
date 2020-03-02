@@ -15,8 +15,8 @@ const Body = () => (
 					/>
 				</div>
 			</div>
-			<div className="col-xs-12 col-md-7 mx-auto d-flex justify-content-center p-auto">
-				<h1 className="display-2 text-center">
+			<div className="col-xs-12 col-md-7 m-auto d-flex justify-content-center p-auto">
+				<h1 className="display-3 text-center">
 					Hi! I'm Anindya Chowdhury
 				</h1>
 			</div>

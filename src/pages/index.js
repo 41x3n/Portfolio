@@ -5,12 +5,6 @@ import Footer from '../components/Footer';
 import Body from '../components/Body';
 import SEO from '../components/seo';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
-// import $ from 'jquery';
-// import Popper from 'popper.js';
-// import 'bootstrap/dist/js/bootstrap.bundle.min';
-// import '../styles/index.css';
-
 const IndexPage = () => (
 	<div className="mainBody">
 		<SEO title="Home" />
