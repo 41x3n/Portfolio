@@ -7,11 +7,11 @@ import SEO from '../components/seo';
 
 const About = () => (
 	<div className="mainBody">
-		<SEO title="About me" />
+		<SEO title="About me - Anindya Chowdhury" />
 		<div className="container-fluid">
 			<Header siteTitle="41x3n" />
 			<AboutBody />
-      <TimeLine />
+			<TimeLine />
 			<Footer />
 		</div>
 	</div>
