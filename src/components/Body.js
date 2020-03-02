@@ -7,43 +7,45 @@ const Body = () => (
 	<div className="container py-5">
 		<div className="row">
 			<div className="col-xs-12 col-md-5 d-flex justify-content-center p-auto">
-				<div class={`${body.profilePicture}`}>
+				<div className={`${body.profilePicture}`}>
 					<img
-						class={`${body.profileImage}`}
+						className={`${body.profileImage}`}
 						src={profile}
 						alt="Profile"
 					/>
 				</div>
 			</div>
 			<div className="col-xs-12 col-md-7 m-auto d-flex justify-content-center p-auto">
-				<h1 className="display-3 text-center">
+				<h1 className="display-4 text-center">
 					Hi! I'm Anindya Chowdhury
 				</h1>
 			</div>
 		</div>
 		<hr className="my-4" />
-		<div className={`${body.side} d-flex justify-content-between py-3`}>
+		<div
+			className={`${body.side} d-flex justify-content-between py-3 px-1`}
+		>
 			<a href="https://github.com/41x3n">
-				<i class="fab fa-github fa-2x" />
+				<i className="fab fa-github fa-lg" />
 			</a>
 			<a href="https://www.linkedin.com/in/anindya-41x3n/">
-				<i class="fab fa-linkedin-in fa-2x" />
+				<i className="fab fa-linkedin-in fa-lg" />
 			</a>
 
 			<a href="https://www.instagram.com/lost_scribe/">
-				<i class="fab fa-instagram-square fa-2x" />
+				<i className="fab fa-instagram-square fa-lg" />
 			</a>
 
 			<a href="mailto:anindya50@live.com">
-				<i class="fas fa-envelope-open fa-2x" />
+				<i className="fas fa-envelope-open fa-lg" />
 			</a>
 
 			<a href="https://www.kaggle.com/anindya41x3n">
-				<i class="fab fa-kaggle fa-2x" />
+				<i className="fab fa-kaggle fa-lg" />
 			</a>
 
 			<a href="https://steamcommunity.com/id/katsuga97">
-				<i class="fab fa-steam-symbol fa-2x" />
+				<i className="fab fa-steam-symbol fa-lg" />
 			</a>
 		</div>
 		<hr className="my-4" />

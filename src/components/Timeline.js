@@ -8,7 +8,7 @@ const TimeLine = () => (
 			<li>
 				<div class={timeline.directionl}>
 					<div class={timeline.flagwrapper}>
-						<span class={timeline.flag}>Central Modern Schhol</span>
+						<span class={timeline.flag}>Central Modern School</span>
 						<span class={timeline.timewrapper}>
 							<span class={timeline.time}>2007 - 2015</span>
 						</span>

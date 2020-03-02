@@ -14,7 +14,7 @@ const Header = ({ siteTitle }) => (
 			data-toggle="collapse"
 			data-target="#myNav"
 		>
-			<i class="fas fa-hamburger" />
+			<i className="fas fa-hamburger" />
 		</div>
 		<div
 			className={`collapse navbar-collapse justify-content-end py-3 ${header.myDiv}`}

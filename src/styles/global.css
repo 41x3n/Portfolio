@@ -1,7 +1,7 @@
 .mainBody {
   background-color: rgb(93, 155, 155);
   /* height: 100vh; */
-  font-family: 'Ubuntu';
+  font-family: 'Ubuntu', 'Roboto';
   color: #262626;
 }
 

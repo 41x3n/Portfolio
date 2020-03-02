@@ -20,15 +20,17 @@ const AboutBody = () => (
 				toes in C and Rust. Planning to get into Data Science in the
 				future.
 			</p>
+			<hr className="my-4" />
 		</div>
-		<hr className="my-4" />
-		<div className="d-flex justify-content-between">
-			<img src={js} alt="JavaScript" />
-			<img src={react} alt="Reactjs" />
-			<img src={node} alt="Nodejs" />
-			<img src={gatsby} alt="Gatsbyjs" />
-			<img src={python} alt="Python" />
-			<img src={mongo} alt="MongoDB" />
+		<div className="container">
+			<div className={`d-flex justify-content-between ${about.img}`}>
+				<img src={js} alt="JavaScript" />
+				<img src={react} alt="Reactjs" />
+				<img src={node} alt="Nodejs" />
+				<img src={gatsby} alt="Gatsbyjs" />
+				<img src={python} alt="Python" />
+				<img src={mongo} alt="MongoDB" />
+			</div>
 		</div>
 		<hr className="my-4" />
 	</div>
