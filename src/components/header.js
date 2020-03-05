@@ -36,7 +36,11 @@ const Header = ({ siteTitle }) => (
 					</Link>
 				</li>
 				<li className="nab-item px-4">
-					<Link to="/" className="nav-link">
+					<Link
+						to="/blog"
+						className="nav-link"
+						activeClassName={header.activeNavItem}
+					>
 						Blog
 					</Link>
 				</li>

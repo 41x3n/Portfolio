@@ -1,0 +1,39 @@
+.head {
+  overflow: hidden;
+  text-align: center;
+}
+
+.head:before,
+.head:after {
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+.head:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+.head:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+.card {
+  background-color: rgb(11, 12, 20);
+}
+
+.link,
+.link:hover {
+  color: white;
+}
+
+.title {
+  text-transform: uppercase;
+  font-weight: bold;
+}

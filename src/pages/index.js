@@ -24,3 +24,4 @@ export default IndexPage;
 // https://jacekjeznach.com/
 // https://jimut123.github.io/
 // https://codepen.io/andi1984/pen/dyoWRgE
+// https://medium.com/better-programming/how-to-display-medium-content-on-your-site-6ae6adf8a304
