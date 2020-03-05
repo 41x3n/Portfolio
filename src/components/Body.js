@@ -1,6 +1,6 @@
 import React from 'react';
 
-import body from './body.module.css';
+import body from '../styles/body.module.css';
 import profile from '../images/profile2.jpg';
 
 const Body = () => (

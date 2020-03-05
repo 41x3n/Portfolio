@@ -3,6 +3,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import AboutBody from '../components/AboutBody';
 import TimeLine from '../components/TimeLine';
+import Certificate from '../components/Certificates';
 import SEO from '../components/seo';
 
 const About = () => (
@@ -12,6 +13,7 @@ const About = () => (
 			<Header siteTitle="41x3n" />
 			<AboutBody />
 			<TimeLine />
+			<Certificate />
 			<Footer />
 		</div>
 	</div>

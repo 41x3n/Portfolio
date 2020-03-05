@@ -1,13 +1,13 @@
 import React from 'react';
 
-import about from './about.module.css';
+import about from '../styles/about.module.css';
 
-import js from '../images/js.png';
-import react from '../images/react.png';
-import gatsby from '../images/gatsby.png';
-import node from '../images/node.png';
-import python from '../images/python.png';
-import mongo from '../images/mongo.png';
+import js from '../images/stack/js.png';
+import react from '../images/stack/react.png';
+import gatsby from '../images/stack/gatsby.png';
+import node from '../images/stack/node.png';
+import python from '../images/stack/python.png';
+import mongo from '../images/stack/mongo.png';
 
 const AboutBody = () => (
 	<div className="container">

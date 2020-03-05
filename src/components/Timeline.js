@@ -1,6 +1,6 @@
 import React from 'react';
 
-import timeline from './timeline.module.css';
+import timeline from '../styles/timeline.module.css';
 
 const TimeLine = () => (
 	<div className="container p-4">

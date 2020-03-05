@@ -1,6 +1,6 @@
 import React from 'react';
 
-import footer from './footer.module.css';
+import footer from '../styles/footer.module.css';
 
 const Footer = () => (
 	<div className={`container ${footer.footer} py-4`}>

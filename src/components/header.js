@@ -2,10 +2,10 @@ import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import React from 'react';
 
-import header from './header.module.css';
+import header from '../styles/header.module.css';
 
 const Header = ({ siteTitle }) => (
-	<nav className="navbar navbar-expand-md navbar-light px-5 text-large">
+	<nav className="navbar navbar-expand-md navbar-light px-2 text-large">
 		<Link to="/" className="navbar-brand">
 			{siteTitle}
 		</Link>
