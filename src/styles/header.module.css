@@ -16,7 +16,7 @@
   height: 2px;
   left: 50%;
   position: absolute;
-  background: rgb(0, 0, 0);
+  background: #FFFEFF;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
@@ -33,5 +33,5 @@
 }
 
 .activeNavItem {
-  color: #000000 !important;
+  color: #FFFEFF !important;
 }

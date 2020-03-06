@@ -30,7 +30,7 @@ function SEO({ description, lang, meta, title }) {
 				crossorigin="anonymous"
 			/>
 			<script
-				src="https://code.jquery.com/jquery-3.4.1.js"
+				src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
 				crossorigin="anonymous"
 			/>
 			<script

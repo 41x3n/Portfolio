@@ -1,9 +1,10 @@
 import React from 'react';
+import { Link } from 'gatsby';
 
 import header from '../styles/header.module.css';
 
-const Header = () => (
-	<nav className="navbar navbar-expand-md navbar-light px-2 text-large">
+const Header = ({ siteTitle }) => (
+	<nav className="navbar navbar-expand-md navbar-dark px-3 text-large">
 		<Link to="/" className="navbar-brand">
 			{siteTitle}
 		</Link>

@@ -5,6 +5,7 @@ import Footer from '../components/Footer';
 import Body from '../components/Body';
 import SEO from '../components/seo';
 
+
 const IndexPage = () => (
 	<div className="mainBody">
 		<SEO title="Home - Anindya Chowdhury" />

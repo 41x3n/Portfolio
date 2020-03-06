@@ -37,7 +37,7 @@ const BlogBody = () => {
 				{finalData.map((article) => (
 					<div className="col-md-6" key={article.guid}>
 						<a href={article.link} className={blog.link}>
-							<div className={`card border-dark pm2`}>
+							<div className={`card border-0 pm2`}>
 								<img
 									class="card-img-top"
 									src={article.thumbnail}
