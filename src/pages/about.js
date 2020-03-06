@@ -10,7 +10,7 @@ const About = () => (
 	<div className="mainBody">
 		<SEO title="About me - Anindya Chowdhury" />
 		<div className="container-fluid">
-			<Header siteTitle="41x3n" />
+			<Header />
 			<AboutBody />
 			<TimeLine />
 			<Certificate />

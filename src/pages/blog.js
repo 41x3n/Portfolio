@@ -8,7 +8,7 @@ const Blog = () => (
 	<div className="mainBody">
 		<SEO title="Blog - Anindya Chowdhury" />
 		<div className="container-fluid">
-			<Header siteTitle="41x3n" />
+			<Header />
 			<BlogBody />
 			<Footer />
 		</div>

@@ -3,10 +3,10 @@ import { Link } from 'gatsby';
 
 import header from '../styles/header.module.css';
 
-const Header = ({ siteTitle }) => (
+const Header = () => (
 	<nav className="navbar navbar-expand-md navbar-dark px-3 text-large">
-		<Link to="/" className="navbar-brand">
-			{siteTitle}
+		<Link to="/" className="navbar-brand px-3">
+			41x3n
 		</Link>
 		<div
 			className="navbar-toggler"
@@ -20,7 +20,7 @@ const Header = ({ siteTitle }) => (
 			id="myNav"
 		>
 			<ul className="navbar-nav">
-				<li className="nab-item px-4">
+				<li className="nab-item pl-4">
 					<Link
 						to="/about"
 						className="nav-link"
@@ -29,12 +29,12 @@ const Header = ({ siteTitle }) => (
 						About
 					</Link>
 				</li>
-				<li className="nab-item px-4">
+				<li className="nab-item pl-4">
 					<Link to="/" className="nav-link">
 						Projects
 					</Link>
 				</li>
-				<li className="nab-item px-4">
+				<li className="nab-item pl-4">
 					<Link
 						to="/blog"
 						className="nav-link"
@@ -43,7 +43,7 @@ const Header = ({ siteTitle }) => (
 						Blog
 					</Link>
 				</li>
-				<li className="nab-item px-4">
+				<li className="nab-item pl-4">
 					<Link to="/" className="nav-link">
 						Contact
 					</Link>
