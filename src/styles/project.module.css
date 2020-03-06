@@ -1,0 +1,10 @@
+.project img {
+  min-width: 0;
+  width: 100%;
+  min-height: 0;
+  height: 100%;
+}
+
+.button {
+  background-color: #552244;
+}
