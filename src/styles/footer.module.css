@@ -1,0 +1,14 @@
+.footer a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: inherit;
+  letter-spacing: 0.15em;
+
+  display: inline-block;
+  position: relative;
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: inherit;
+}

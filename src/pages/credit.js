@@ -1,19 +1,18 @@
 import React from 'react';
-// import { Link } from 'gatsby';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import Body from '../components/Body';
+import CreditBody from '../components/CreditBody';
 import SEO from '../components/seo';
 
-const IndexPage = () => (
+const Credit = () => (
 	<div className="mainBody">
-		<SEO title="Home - Anindya Chowdhury" />
+		<SEO title="Credits" />
 		<div className="container-fluid">
 			<Header />
-			<Body />
+			<CreditBody />
 			<Footer />
 		</div>
 	</div>
 );
 
-export default IndexPage;
+export default Credit;

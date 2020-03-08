@@ -22,9 +22,7 @@ const Body = () => (
 			</div>
 		</div>
 		<hr className="my-4" />
-		<div
-			className={`${body.side} d-flex justify-content-between py-3 px-1`}
-		>
+		<div className={`${body.side} d-flex justify-content-between py-3`}>
 			<a href="https://github.com/41x3n">
 				<i className="fab fa-github fa-lg" />
 			</a>
@@ -42,10 +40,6 @@ const Body = () => (
 
 			<a href="https://www.kaggle.com/anindya41x3n">
 				<i className="fab fa-kaggle fa-lg" />
-			</a>
-
-			<a href="https://steamcommunity.com/id/katsuga97">
-				<i className="fab fa-steam-symbol fa-lg" />
 			</a>
 		</div>
 		<hr className="my-4" />
