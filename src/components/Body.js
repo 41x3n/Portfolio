@@ -1,7 +1,7 @@
 import React from 'react';
 
 import body from '../styles/body.module.css';
-import profile from '../images/profile2.jpg';
+import profile from '../images/profile.jpg';
 
 const Body = () => (
 	<div className="container py-5">
@@ -30,8 +30,8 @@ const Body = () => (
 				<i className="fab fa-linkedin-in fa-lg" />
 			</a>
 
-			<a href="https://www.instagram.com/lost_scribe/">
-				<i className="fab fa-instagram-square fa-lg" />
+			<a href="https://twitter.com/41x3n">
+				<i className="fab fa-twitter-square fa-lg" />
 			</a>
 
 			<a href="mailto:anindya50@live.com">

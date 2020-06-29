@@ -1,55 +1,55 @@
 [{
-  "title": "BloodCon",
-  "desc": "Created a platform where interested blood donors can get in touch with people who need blood quickly and efficiently.",
-  "tags": "Full-Stack / Node.js / MongoDB",
-  "view": {
-    "source": "Github",
-    "link": "https://github.com/41x3n/BloodCon-Backend"
-  },
-  "image": "./bloodcon.png"
+    "title": "Impact of lockdown in India COVID-19",
+    "desc": "The purpose of this project is to analyse and visualize Time Series data to predict the impact of COVID-19 in India. To figure out if Lockdown was quickly implemented and what will be the impact if the lockdown is withdrawn. ",
+    "tags": "Python / Data Analysis / Facebook Prophet",
+    "view": {
+        "source": "Github",
+        "link": "https://github.com/41x3n/Impact-of-lockdown-in-India-COVID-19"
+    },
+    "image": "./impact.png"
 }, {
-  "title": "Pic-a-Tab Chrome Extension",
-  "desc": "A Chrome extension which opens a new tab with random picture from unsplash ",
-  "tags": "Bootstrap / JQuery / Moment",
-  "view": {
-    "source": "Github",
-    "link": "https://github.com/41x3n/Pic-a-Tab-Chrome-Extension"
-  },
-  "image": "./extension.png"
+    "title": "BloodCon",
+    "desc": "Created a platform where interested blood donors can get in touch with people who need blood quickly and efficiently.",
+    "tags": "Full-Stack / Node.js / MongoDB",
+    "view": {
+        "source": "Github",
+        "link": "https://github.com/41x3n/BloodCon-Backend"
+    },
+    "image": "./bloodcon.png"
 }, {
-  "title": "Terrorist Incidents Dataset (2015 - 2018)",
-  "desc": "A dataset containing information about terrorist incidents occurred in between 2015 and 2018 generated from scraping Wikipedia.",
-  "tags": "Web scraping / Node.js / Puppeteer",
-  "view": {
-    "source": "Kaggle",
-    "link": "https://www.kaggle.com/anindya41x3n/terrorist-incidents-dataset-2015-2018"
-  },
-  "image": "./dataset.png"
+    "title": "Pic-a-Tab Chrome Extension",
+    "desc": "A Chrome extension which opens a new tab with random picture from unsplash ",
+    "tags": "Bootstrap / JQuery / Moment",
+    "view": {
+        "source": "Github",
+        "link": "https://github.com/41x3n/Pic-a-Tab-Chrome-Extension"
+    },
+    "image": "./extension.png"
 }, {
-  "title": "GoalKicker-Books Script",
-  "desc": "A tiny js script (nodejs) to download all ebooks from Goalkicker",
-  "tags": "Web scraping / Node.js / Axios / Cheerio",
-  "view": {
-    "source": "Github",
-    "link": "https://github.com/41x3n/GoalKicker-Books-Script"
-  },
-  "image": "./goal.png"
+    "title": "Terrorist Incidents Dataset (2015 - 2018)",
+    "desc": "A dataset containing information about terrorist incidents occurred in between 2015 and 2018 generated from scraping Wikipedia.",
+    "tags": "Web scraping / Node.js / Puppeteer",
+    "view": {
+        "source": "Kaggle",
+        "link": "https://www.kaggle.com/anindya41x3n/terrorist-incidents-dataset-2015-2018"
+    },
+    "image": "./dataset.png"
 }, {
-  "title": "Forumz",
-  "desc": "Backend of college forum website, created for Industrial Training project in WebGuru Infosystems Pvt. Ltd..",
-  "tags": "Backend / Node.js / PostgreSQL",
-  "view": {
-    "source": "Github",
-    "link": "https://github.com/41x3n/ForumZ"
-  },
-  "image": "./forumz.png"
+    "title": "GoalKicker-Books Script",
+    "desc": "A tiny js script (nodejs) to download all ebooks from Goalkicker",
+    "tags": "Web scraping / Node.js / Axios / Cheerio",
+    "view": {
+        "source": "Github",
+        "link": "https://github.com/41x3n/GoalKicker-Books-Script"
+    },
+    "image": "./goal.png"
 }, {
-  "title": "Visualizing Global Terrorist Incidents",
-  "desc": "Visualizing Global Terrorist Incidents with data generated through Wikipedia Scraping using Puppeteer",
-  "tags": "Visualization / Node.js / Puppeteer",
-  "view": {
-    "source": "Github",
-    "link": "https://github.com/41x3n/Web-Scraper-Wikipedia"
-  },
-  "image": "./visu.png"
+    "title": "Forumz",
+    "desc": "Backend of college forum website, created for Industrial Training project in WebGuru Infosystems Pvt. Ltd..",
+    "tags": "Backend / Node.js / PostgreSQL",
+    "view": {
+        "source": "Github",
+        "link": "https://github.com/41x3n/ForumZ"
+    },
+    "image": "./forumz.png"
 }]

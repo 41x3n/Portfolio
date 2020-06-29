@@ -29,6 +29,10 @@ const CreditBody = () => (
 				</a>{' '}
 				for the excellent trick to showcase blog posts from Medium.
 			</li>
+			<li>
+				Beautiful icons from{' '}
+				<a href="https://icon-icons.com/">Icon Icons</a>
+			</li>
 		</ul>
 	</div>
 );

@@ -8,6 +8,8 @@ import gatsby from '../images/stack/gatsby.png';
 import node from '../images/stack/node.png';
 import python from '../images/stack/python.png';
 import mongo from '../images/stack/mongo.png';
+import next from '../images/stack/next.png';
+import jupyter from '../images/stack/jupyter.png';
 
 const AboutBody = () => (
 	<div className="container">
@@ -25,11 +27,13 @@ const AboutBody = () => (
 		<div className="container">
 			<div className={`d-flex justify-content-between ${about.img}`}>
 				<img src={js} alt="JavaScript" />
-				<img src={react} alt="Reactjs" />
 				<img src={node} alt="Nodejs" />
-				<img src={gatsby} alt="Gatsbyjs" />
-				<img src={python} alt="Python" />
 				<img src={mongo} alt="MongoDB" />
+				<img src={react} alt="Reactjs" />
+				<img src={gatsby} alt="Gatsbyjs" />
+				<img src={next} alt="Next" />
+				<img src={python} alt="Python" />
+				<img src={jupyter} alt="Jupyter" />
 			</div>
 		</div>
 		<hr className="my-4" />
