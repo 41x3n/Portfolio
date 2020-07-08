@@ -39,7 +39,7 @@ const BlogBody = () => {
 						<a href={article.link} className={blog.link}>
 							<div className={`card border-0 bg-dark pm2`}>
 								<img
-									class="card-img-top"
+									className="card-img-top"
 									src={article.thumbnail}
 									alt="blog"
 								/>
